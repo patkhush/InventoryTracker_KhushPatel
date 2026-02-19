@@ -17,4 +17,9 @@ public class InventoryTracker {
         System.out.println("Trackking Inventory......");
     }
     
+    public void checkStockLevel(String itemName, int quantity) {
+    System.out.println("Checking stock for: " + itemName);
+    System.out.println("Available quantity: " + quantity);
+    }
+    
 }
