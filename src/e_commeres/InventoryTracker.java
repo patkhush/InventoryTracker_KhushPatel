@@ -22,4 +22,12 @@ public class InventoryTracker {
     System.out.println("Available quantity: " + quantity);
     }
     
+    public void alertLowStock(String itemName, int quantity) {
+    if (quantity < 5) {
+        System.out.println("Alert: Low stock for " + itemName);
+    } else {
+        System.out.println(itemName + " stock level is sufficient.");
+    }
+    }
+    
 }
